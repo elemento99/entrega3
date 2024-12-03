@@ -1,16 +1,18 @@
+@use '../base/colors' as c;
+
 .main {
   padding: 2rem 1rem;
-  background-color: $background-color;
+  background-color: c.$background-color;
 
   &__team-title {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    color: $primary-color;
+    color: c.$primary-color;
   }
 }
 
 .presentation {
-  background-color: $white-color;
+  background-color: c.$white-color;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -22,12 +24,12 @@
 
   &__title {
     font-size: 1.8rem;
-    color: $primary-color;
+    color: c.$primary-color;
   }
 
   &__description {
     font-size: 1rem;
-    color: $text-color;
+    color: c.$text-color;
     line-height: 1.6;
   }
 }
@@ -56,12 +58,12 @@
 
       .card-title {
         font-size: 1.5rem;
-        color: $primary-color;
+        color: c.$primary-color;
       }
 
       .card-text {
         font-size: 1rem;
-        color: $text-color;
+        color: c.$text-color;
       }
     }
   }

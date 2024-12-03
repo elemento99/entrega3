@@ -1,6 +1,8 @@
+@use '../base/colors' as c;
+
 .footer {
-  background-color: $secondary-color;
-  color: $white-color;
+  background-color: c.$secondary-color;
+  color: c.$white-color;
   padding: 2rem;
   text-align: center;
 
@@ -17,13 +19,13 @@
   &__title {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
-    color: $primary-color;
+    color: c.$primary-color;
   }
 
   &__text {
     font-size: 1rem;
     margin: 0.3rem 0;
-    color: $text-color;
+    color: c.$text-color;
   }
 
   &__social-links {
@@ -35,12 +37,12 @@
   }
 
   &__social-item a {
-    color: $white-color;
+    color: c.$white-color;
     text-decoration: none;
     transition: color 0.3s ease;
 
     &:hover {
-      color: $third-color;
+      color: c.$third-color;
     }
   }
 }
