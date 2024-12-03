@@ -1,8 +1,8 @@
-
+@use '../base/colors' as c;
 
 .main {
   padding: 2rem 1rem;
-  background-color: $background-color;
+  background-color: c.$background-color;
 
   &__section {
     display: flex;
@@ -22,14 +22,14 @@
   }
 
   &__block {
-    background-color: $white-color;
+    background-color: c.$white-color;
     border-radius: 8px;
     padding: 1.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 
     h3 {
-      color: $primary-color;
+      color: c.$primary-color;
       font-size: 1.5rem;
       margin-bottom: 1rem;
     }
@@ -44,13 +44,13 @@
     p {
       font-size: 1rem;
       margin: 0.5rem 0;
-      color: $text-color;
+      color: c.$text-color;
     }
 
     ul {
       list-style: none;
       padding: 0;
-      color: $text-color;
+      color: c.$text-color;
 
       li {
         font-size: 1rem;
@@ -71,7 +71,7 @@
     text-align: left;
 
     h3 {
-      color: $primary-color;
+      color: c.$primary-color;
       font-size: 1.5rem;
       margin-bottom: 1rem;
     }
@@ -79,17 +79,17 @@
     ul {
       list-style: none;
       padding: 0;
-      color: $text-color;
+      color: c.$text-color;
 
       li {
         margin-bottom: 1rem;
         padding: 1rem;
-        background-color: $white-color;
+        background-color: c.$white-color;
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
         strong {
-          color: $secondary-color;
+          color: c.$secondary-color;
         }
       }
     }

@@ -60,7 +60,7 @@ header .navbar__menu {
 }
 header .navbar__button {
   padding: 0.5rem 1rem;
-  background-color: #555;
+  background-color: #5cf4ab;
   border: none;
   color: #333;
   cursor: pointer;
@@ -80,42 +80,6 @@ header .navbar__button:hover {
   }
 }
 
-.footer {
-  padding: 2rem;
-  text-align: center;
-}
-.footer__section {
-  margin-bottom: 1.5rem;
-}
-.footer__section--contact, .footer__section--social, .footer__section--hours {
-  margin-bottom: 2rem;
-}
-.footer__title {
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-  color: #3498db;
-}
-.footer__text {
-  font-size: 1rem;
-  margin: 0.3rem 0;
-  color: #333;
-}
-.footer__social-links {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-.footer__social-item a {
-  color: #ffffff;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-.footer__social-item a:hover {
-  color: #f39c12;
-}
-
 .navbar__menu {
   list-style: none;
   display: flex;
@@ -126,13 +90,15 @@ header .navbar__button:hover {
   font-weight: 400;
   font-size: 1rem;
 }
+.navbar__menu__list {
+  list-style-type: none;
+}
 .navbar__menu__item a {
   color: #333;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
   font-size: 1.1rem;
 }
 .navbar__menu__item a:hover {
@@ -140,7 +106,7 @@ header .navbar__button:hover {
 }
 
 .footer {
-  background-color: #555;
+  background-color: #5cf4ab;
   color: #ffffff;
   padding: 2rem;
   text-align: center;
@@ -261,7 +227,7 @@ header .navbar__button:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .main__testimonials ul li strong {
-  color: #555;
+  color: #5cf4ab;
 }
 @media (min-width: 1024px) {
   .main {
@@ -433,4 +399,6 @@ header .navbar__button:hover {
   .team__members {
     grid-template-columns: repeat(4, 1fr);
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
